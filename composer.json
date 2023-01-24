@@ -1,0 +1,15 @@
+{
+    "name": "zaoqumelashvili/scandiweb2",
+    "description": "Scandiweb Junior Web Developer Test",
+    "autoload": {
+        "psr-4": {
+           "app\\" : "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zaur Kumelashvili"
+        }
+    ],
+    "require": {}
+}
