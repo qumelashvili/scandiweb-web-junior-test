@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 20px 50px 0px 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+.button-area button{
+    margin: 5px;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: transparent;
+
+    /* SHADOW STYLES */
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.input-area{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.input-area input {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.input-area label{
+    width: 150px;
+}
+
+
+
+#productType{
+    width: 100px;
+    height: 30px;
+    -webkit-appearance: menulist-button;
+
+}
+
+.option{
+    display: none;
+}
+.active{
+    display: inline;
+}
+.description{
+    margin-top: 20px;
+    font-size: 13px;
+    color: gray;
+}
