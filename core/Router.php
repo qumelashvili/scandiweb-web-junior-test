@@ -34,8 +34,11 @@ class Router
         echo call_user_func($fn, $this);
     }
 
-    public function renderView()
+    public function renderView($view)
     {
+        ob_start();
         include __DIR__ . "/../views/products/$view.php";
+        $content = ob_get_clean();
+        include __DIR__ . "/../views/_layout.php";
     }
 }
