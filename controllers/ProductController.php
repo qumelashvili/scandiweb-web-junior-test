@@ -10,4 +10,8 @@ class ProductController
     {
         $router->renderView('index');
     }
+    public function createProduct(Router $router)
+    {
+        $router->renderView('create');
+    }
 }
